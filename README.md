@@ -26,3 +26,30 @@ The dataset will be extracted to DataFrame and transformed to 4 different DataFr
   <sub>Figure 1 Tables in pgAdmin</sub>
 </p>
 
+### Vine Review
+
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/88597187/145694401-3a1a5e17-287c-43a5-9a99-80eb854f323c.png" width="600" height="75"/>
+     <img src="https://user-images.githubusercontent.com/88597187/145694408-b428dcb8-7cf0-4d4e-8fef-b4b8931da996.png" width="300" height="75"/>
+  
+</p>
+<p align="center">
+  <sub>Figure 2 Vine review Summary </sub>
+</p>
+
+
+Figure 2  show us the summary of Vine Review from the vine_table. From the summary we can conclude:
+* There are 463 vine review and 25094 non vine review
+* 202 of the vine reviews were 5 stars and  12033 of  non-vine reviews were 5 stars
+* 43.63% vine reviews were 5 stars
+* 47.95% non-vine review were 5 stars
+
+## 4. Summary
+
+This project main purpose is to determine if there is any bias toward favorable reviews from vine members. The data is extracted from reviews that percentage of  helpful_votes greater than 50% to make sure the review is really helpful for customer to make decision from both vine members and non-vine members. From Figure 2 we can see that the percentage 5 stars review for vine member is 43.63% while for the non-vine members is 47.95%. From this we can conclude that there is no bias toward favorable review from vine members , since there is no significant different of 5 star review and the review for non-vine members even slighlty higher 4.32% than vine members.
+
+Additionally, to add more detail we can perform additional query in 4 star review and 3 star review to make sure that there is no bias in the reviews for 4 and 3 stars. We can perform the query in another category too , to make sure that other category has the same result with this dataset. 
+
+
+
