@@ -13,7 +13,7 @@ Software: PySpark, pgAdmin, AWS RDS
 
 ## 3. Result
 ### Transform Data and Connect to an AWS RDS Instance
-The dataset will be extracted to DataFrame and transformed to 4 different DataFrames that match table in pgAdmin.  The 4 table that will be transformed is customer_table that has information about customer id and count of review customer had in the dataset, product_table that has information about product id and name of the product, review_id_table that has information about review id, customer id, product id, product parent and review data, and last is the vine table that has information about review id, star rating of the product,helpful votes, total votes, flag that determine if the review is vine or not,and flag for verified purchase. Figure 1 will show us the transformed data that has been successfully loaded in to pgAdmin Table.
+The dataset will be extracted to DataFrame and transformed to 4 different DataFrames that match table in pgAdmin.  The 4 table that will be transformed is customer_table that has information about customer id and count of review customer had in the dataset, product_table that has information about product id and name of the product, review_id_table that has information about review id, customer id, product id, product parent and review data, and last is the vine table that has information about review id, star rating of the product,helpful votes, total votes, flag that determine if the review is vine or not,and flag for verified purchase. Figure 1 will show us the transformed data that have been successfully loaded in to pgAdmin Table.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/88597187/145683325-6e17246b-bc56-4cc1-ae2a-36c68bcad903.png" width="400" height="200"/>
