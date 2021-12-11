@@ -47,7 +47,9 @@ Figure 2  show us the summary of Vine Review from the vine_table. From the summa
 
 ## 4. Summary
 
-This project main purpose is to determine if there is any bias toward favorable reviews from vine members. The data is extracted from reviews that percentage of  helpful_votes greater than 50% to make sure the review is really helpful for customer to make decision from both vine members and non-vine members. From Figure 2 we can see that the percentage 5 stars review for vine member is 43.63% while for the non-vine members is 47.95%. From this we can conclude that there is no bias toward favorable review from vine members , since there is no significant different of 5 star review and the review for non-vine members even slighlty higher 4.32% than vine members.
+This project main purpose is to determine if there is any bias toward favorable reviews from vine members. The data is extracted from reviews that the  percentage of  helpful_votes greater than 50%. This is to make sure the review is really helpful for customer to make decision to buy an item. 
+
+From Figure 2 we can see that the percentage 5 stars review for vine member is 43.63% while for the non-vine members is 47.95%. From this we can conclude that there is no bias toward favorable review from vine members , since there is no significant different of 5 star review percentage .The review for non-vine members even slighlty higher 4.32% than vine members.
 
 Additionally, to add more detail we can perform additional query in 4 star review and 3 star review to make sure that there is no bias in the reviews for 4 and 3 stars. We can perform the query in another category too , to make sure that other category has the same result with this dataset. 
 
